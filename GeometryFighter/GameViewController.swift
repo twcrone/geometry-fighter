@@ -20,7 +20,6 @@ class GameViewController: UIViewController {
         setupView()
         setupScene()
         setupCamera()
-        spawnShape()
     }
 
     override var shouldAutorotate: Bool {
@@ -36,6 +35,7 @@ class GameViewController: UIViewController {
         scnView.showsStatistics = true
         scnView.allowsCameraControl = true
         scnView.autoenablesDefaultLighting = true
+        scnView.delegate = self
     }
 
     func setupScene() {
@@ -95,5 +95,11 @@ class GameViewController: UIViewController {
         let position = SCNVector3(x: 0.05, y: 0.05, z: 0.05)
         geometryNode.physicsBody?.applyForce(force, at: position, asImpulse: true)
         scnScene.rootNode.addChildNode(geometryNode)
+    }
+}
+
+extension GameViewController: SCNSceneRendererDelegate {
+    func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
+        spawnShape()
     }
 }
