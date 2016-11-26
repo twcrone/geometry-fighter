@@ -97,6 +97,14 @@ class GameViewController: UIViewController {
         geometryNode.physicsBody?.applyForce(force, at: position, asImpulse: true)
         scnScene.rootNode.addChildNode(geometryNode)
     }
+    
+    func cleanScene() {
+        for node in scnScene.rootNode.childNodes {
+            if node.presentation.position.y < -2 {
+                node.removeFromParentNode()
+            }
+        }
+    }
 }
 
 extension GameViewController: SCNSceneRendererDelegate {
