@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAABD4331DE9D26100F7BEB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAABD4321DE9D26100F7BEB3 /* AppDelegate.swift */; };
+		AAABD4351DE9D26100F7BEB3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AAABD4341DE9D26100F7BEB3 /* art.scnassets */; };
+		AAABD4371DE9D26100F7BEB3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAABD4361DE9D26100F7BEB3 /* GameViewController.swift */; };
+		AAABD43A1DE9D26100F7BEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAABD4381DE9D26100F7BEB3 /* Main.storyboard */; };
+		AAABD43C1DE9D26100F7BEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAABD43B1DE9D26100F7BEB3 /* Assets.xcassets */; };
+		AAABD43F1DE9D26100F7BEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAABD43D1DE9D26100F7BEB3 /* LaunchScreen.storyboard */; };
+		AAABD44A1DE9D26100F7BEB3 /* GeometryFighterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAABD4491DE9D26100F7BEB3 /* GeometryFighterTests.swift */; };
+		AAABD4551DE9D26100F7BEB3 /* GeometryFighterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAABD4541DE9D26100F7BEB3 /* GeometryFighterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAABD4461DE9D26100F7BEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAABD4271DE9D26000F7BEB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAABD42E1DE9D26000F7BEB3;
+			remoteInfo = GeometryFighter;
+		};
+		AAABD4511DE9D26100F7BEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAABD4271DE9D26000F7BEB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAABD42E1DE9D26000F7BEB3;
+			remoteInfo = GeometryFighter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAABD42F1DE9D26100F7BEB3 /* GeometryFighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryFighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAABD4321DE9D26100F7BEB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAABD4341DE9D26100F7BEB3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AAABD4361DE9D26100F7BEB3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AAABD4391DE9D26100F7BEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAABD43B1DE9D26100F7BEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAABD43E1DE9D26100F7BEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAABD4401DE9D26100F7BEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAABD4451DE9D26100F7BEB3 /* GeometryFighterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryFighterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAABD4491DE9D26100F7BEB3 /* GeometryFighterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryFighterTests.swift; sourceTree = "<group>"; };
+		AAABD44B1DE9D26100F7BEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAABD4501DE9D26100F7BEB3 /* GeometryFighterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryFighterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAABD4541DE9D26100F7BEB3 /* GeometryFighterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryFighterUITests.swift; sourceTree = "<group>"; };
+		AAABD4561DE9D26100F7BEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAABD42C1DE9D26000F7BEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABD4421DE9D26100F7BEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABD44D1DE9D26100F7BEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAABD4261DE9D26000F7BEB3 = {
+			isa = PBXGroup;
+			children = (
+				AAABD4311DE9D26100F7BEB3 /* GeometryFighter */,
+				AAABD4481DE9D26100F7BEB3 /* GeometryFighterTests */,
+				AAABD4531DE9D26100F7BEB3 /* GeometryFighterUITests */,
+				AAABD4301DE9D26100F7BEB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAABD4301DE9D26100F7BEB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAABD42F1DE9D26100F7BEB3 /* GeometryFighter.app */,
+				AAABD4451DE9D26100F7BEB3 /* GeometryFighterTests.xctest */,
+				AAABD4501DE9D26100F7BEB3 /* GeometryFighterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAABD4311DE9D26100F7BEB3 /* GeometryFighter */ = {
+			isa = PBXGroup;
+			children = (
+				AAABD4321DE9D26100F7BEB3 /* AppDelegate.swift */,
+				AAABD4341DE9D26100F7BEB3 /* art.scnassets */,
+				AAABD4361DE9D26100F7BEB3 /* GameViewController.swift */,
+				AAABD4381DE9D26100F7BEB3 /* Main.storyboard */,
+				AAABD43B1DE9D26100F7BEB3 /* Assets.xcassets */,
+				AAABD43D1DE9D26100F7BEB3 /* LaunchScreen.storyboard */,
+				AAABD4401DE9D26100F7BEB3 /* Info.plist */,
+			);
+			path = GeometryFighter;
+			sourceTree = "<group>";
+		};
+		AAABD4481DE9D26100F7BEB3 /* GeometryFighterTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAABD4491DE9D26100F7BEB3 /* GeometryFighterTests.swift */,
+				AAABD44B1DE9D26100F7BEB3 /* Info.plist */,
+			);
+			path = GeometryFighterTests;
+			sourceTree = "<group>";
+		};
+		AAABD4531DE9D26100F7BEB3 /* GeometryFighterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAABD4541DE9D26100F7BEB3 /* GeometryFighterUITests.swift */,
+				AAABD4561DE9D26100F7BEB3 /* Info.plist */,
+			);
+			path = GeometryFighterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAABD42E1DE9D26000F7BEB3 /* GeometryFighter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAABD4591DE9D26100F7BEB3 /* Build configuration list for PBXNativeTarget "GeometryFighter" */;
+			buildPhases = (
+				AAABD42B1DE9D26000F7BEB3 /* Sources */,
+				AAABD42C1DE9D26000F7BEB3 /* Frameworks */,
+				AAABD42D1DE9D26000F7BEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometryFighter;
+			productName = GeometryFighter;
+			productReference = AAABD42F1DE9D26100F7BEB3 /* GeometryFighter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAABD4441DE9D26100F7BEB3 /* GeometryFighterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAABD45C1DE9D26100F7BEB3 /* Build configuration list for PBXNativeTarget "GeometryFighterTests" */;
+			buildPhases = (
+				AAABD4411DE9D26100F7BEB3 /* Sources */,
+				AAABD4421DE9D26100F7BEB3 /* Frameworks */,
+				AAABD4431DE9D26100F7BEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAABD4471DE9D26100F7BEB3 /* PBXTargetDependency */,
+			);
+			name = GeometryFighterTests;
+			productName = GeometryFighterTests;
+			productReference = AAABD4451DE9D26100F7BEB3 /* GeometryFighterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAABD44F1DE9D26100F7BEB3 /* GeometryFighterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAABD45F1DE9D26100F7BEB3 /* Build configuration list for PBXNativeTarget "GeometryFighterUITests" */;
+			buildPhases = (
+				AAABD44C1DE9D26100F7BEB3 /* Sources */,
+				AAABD44D1DE9D26100F7BEB3 /* Frameworks */,
+				AAABD44E1DE9D26100F7BEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAABD4521DE9D26100F7BEB3 /* PBXTargetDependency */,
+			);
+			name = GeometryFighterUITests;
+			productName = GeometryFighterUITests;
+			productReference = AAABD4501DE9D26100F7BEB3 /* GeometryFighterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAABD4271DE9D26000F7BEB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Todd William Crone";
+				TargetAttributes = {
+					AAABD42E1DE9D26000F7BEB3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					AAABD4441DE9D26100F7BEB3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAABD42E1DE9D26000F7BEB3;
+					};
+					AAABD44F1DE9D26100F7BEB3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAABD42E1DE9D26000F7BEB3;
+					};
+				};
+			};
+			buildConfigurationList = AAABD42A1DE9D26000F7BEB3 /* Build configuration list for PBXProject "GeometryFighter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAABD4261DE9D26000F7BEB3;
+			productRefGroup = AAABD4301DE9D26100F7BEB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAABD42E1DE9D26000F7BEB3 /* GeometryFighter */,
+				AAABD4441DE9D26100F7BEB3 /* GeometryFighterTests */,
+				AAABD44F1DE9D26100F7BEB3 /* GeometryFighterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAABD42D1DE9D26000F7BEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAABD4351DE9D26100F7BEB3 /* art.scnassets in Resources */,
+				AAABD43F1DE9D26100F7BEB3 /* LaunchScreen.storyboard in Resources */,
+				AAABD43C1DE9D26100F7BEB3 /* Assets.xcassets in Resources */,
+				AAABD43A1DE9D26100F7BEB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABD4431DE9D26100F7BEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABD44E1DE9D26100F7BEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAABD42B1DE9D26000F7BEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAABD4371DE9D26100F7BEB3 /* GameViewController.swift in Sources */,
+				AAABD4331DE9D26100F7BEB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABD4411DE9D26100F7BEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAABD44A1DE9D26100F7BEB3 /* GeometryFighterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABD44C1DE9D26100F7BEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAABD4551DE9D26100F7BEB3 /* GeometryFighterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAABD4471DE9D26100F7BEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAABD42E1DE9D26000F7BEB3 /* GeometryFighter */;
+			targetProxy = AAABD4461DE9D26100F7BEB3 /* PBXContainerItemProxy */;
+		};
+		AAABD4521DE9D26100F7BEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAABD42E1DE9D26000F7BEB3 /* GeometryFighter */;
+			targetProxy = AAABD4511DE9D26100F7BEB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAABD4381DE9D26100F7BEB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAABD4391DE9D26100F7BEB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAABD43D1DE9D26100F7BEB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAABD43E1DE9D26100F7BEB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAABD4571DE9D26100F7BEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAABD4581DE9D26100F7BEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAABD45A1DE9D26100F7BEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeometryFighter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravo12.GeometryFighter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AAABD45B1DE9D26100F7BEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeometryFighter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravo12.GeometryFighter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AAABD45D1DE9D26100F7BEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeometryFighterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravo12.GeometryFighterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometryFighter.app/GeometryFighter";
+			};
+			name = Debug;
+		};
+		AAABD45E1DE9D26100F7BEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeometryFighterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravo12.GeometryFighterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometryFighter.app/GeometryFighter";
+			};
+			name = Release;
+		};
+		AAABD4601DE9D26100F7BEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GeometryFighterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravo12.GeometryFighterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GeometryFighter;
+			};
+			name = Debug;
+		};
+		AAABD4611DE9D26100F7BEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GeometryFighterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravo12.GeometryFighterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GeometryFighter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAABD42A1DE9D26000F7BEB3 /* Build configuration list for PBXProject "GeometryFighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAABD4571DE9D26100F7BEB3 /* Debug */,
+				AAABD4581DE9D26100F7BEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAABD4591DE9D26100F7BEB3 /* Build configuration list for PBXNativeTarget "GeometryFighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAABD45A1DE9D26100F7BEB3 /* Debug */,
+				AAABD45B1DE9D26100F7BEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAABD45C1DE9D26100F7BEB3 /* Build configuration list for PBXNativeTarget "GeometryFighterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAABD45D1DE9D26100F7BEB3 /* Debug */,
+				AAABD45E1DE9D26100F7BEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAABD45F1DE9D26100F7BEB3 /* Build configuration list for PBXNativeTarget "GeometryFighterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAABD4601DE9D26100F7BEB3 /* Debug */,
+				AAABD4611DE9D26100F7BEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAABD4271DE9D26000F7BEB3 /* Project object */;
+}
