@@ -14,6 +14,7 @@ class GameViewController: UIViewController {
     var scnView: SCNView!
     var scnScene: SCNScene!
     var cameraNode: SCNNode!
+    var spawnTime: TimeInterval = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -80,7 +81,7 @@ class GameViewController: UIViewController {
                 break
         
         case ShapeType.sphere:
-            geometry = SCNSphere(radius: 1.0)
+            geometry = SCNSphere()
             break
 
         default:
@@ -100,6 +101,9 @@ class GameViewController: UIViewController {
 
 extension GameViewController: SCNSceneRendererDelegate {
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
-        spawnShape()
+        if time > spawnTime {
+            spawnShape()
+            spawnTime = time + TimeInterval(Float.random(min: 0.2, max: 1.5))
+        }
     }
 }
