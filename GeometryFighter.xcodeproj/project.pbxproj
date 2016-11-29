@@ -23,6 +23,8 @@
 		AAABD4721DE9FAA600F7BEB3 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAABD46B1DE9FAA600F7BEB3 /* Int+Extensions.swift */; };
 		AAABD4731DE9FAA600F7BEB3 /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAABD46C1DE9FAA600F7BEB3 /* SCNAction+Extensions.swift */; };
 		AAABD4741DE9FAA600F7BEB3 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAABD46D1DE9FAA600F7BEB3 /* UIColor+Extensions.swift */; };
+		AAABD4781DEA150800F7BEB3 /* Trail.scnp in Resources */ = {isa = PBXBuildFile; fileRef = AAABD4761DEA150800F7BEB3 /* Trail.scnp */; };
+		AAABD4791DEA150800F7BEB3 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = AAABD4771DEA150800F7BEB3 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		AAABD46B1DE9FAA600F7BEB3 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
 		AAABD46C1DE9FAA600F7BEB3 /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
 		AAABD46D1DE9FAA600F7BEB3 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		AAABD4761DEA150800F7BEB3 /* Trail.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Trail.scnp; sourceTree = "<group>"; };
+		AAABD4771DEA150800F7BEB3 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		AAABD4261DE9D26000F7BEB3 = {
 			isa = PBXGroup;
 			children = (
+				AAABD4751DEA14A600F7BEB3 /* Particles */,
 				AAABD4661DE9FAA600F7BEB3 /* GameUtils */,
 				AAABD4621DE9DA1C00F7BEB3 /* GeometryFighter.scnassets */,
 				AAABD4311DE9D26100F7BEB3 /* GeometryFighter */,
@@ -158,6 +163,15 @@
 				AAABD46D1DE9FAA600F7BEB3 /* UIColor+Extensions.swift */,
 			);
 			path = GameUtils;
+			sourceTree = "<group>";
+		};
+		AAABD4751DEA14A600F7BEB3 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				AAABD4761DEA150800F7BEB3 /* Trail.scnp */,
+				AAABD4771DEA150800F7BEB3 /* spark.png */,
+			);
+			name = Particles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +242,7 @@
 				TargetAttributes = {
 					AAABD42E1DE9D26000F7BEB3 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VN2UL25CMG;
 						ProvisioningStyle = Automatic;
 					};
 					AAABD4441DE9D26100F7BEB3 = {
@@ -267,6 +282,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAABD4781DEA150800F7BEB3 /* Trail.scnp in Resources */,
+				AAABD4791DEA150800F7BEB3 /* spark.png in Resources */,
 				AAABD43F1DE9D26100F7BEB3 /* LaunchScreen.storyboard in Resources */,
 				AAABD43C1DE9D26100F7BEB3 /* Assets.xcassets in Resources */,
 				AAABD43A1DE9D26100F7BEB3 /* Main.storyboard in Resources */,
@@ -456,11 +473,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VN2UL25CMG;
 				INFOPLIST_FILE = GeometryFighter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bravo12.GeometryFighter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -468,11 +487,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VN2UL25CMG;
 				INFOPLIST_FILE = GeometryFighter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bravo12.GeometryFighter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
